@@ -1,0 +1,6 @@
+{"duration":34,"events":[
+{"t":0.0,"kind":"thud","args":[55],"gain":1.2},{"t":0.05,"kind":"alarm","gain":0.5},
+{"t":3.45,"kind":"whoosh","gain":0.35},{"t":9.45,"kind":"whoosh","gain":0.35},{"t":17.45,"kind":"whoosh","gain":0.35},{"t":23.45,"kind":"whoosh","gain":0.35},{"t":28.45,"kind":"whoosh","gain":0.35},
+{"t":6.2,"kind":"thud","gain":1.0},
+{"t":10.2,"kind":"pop"},{"t":10.7,"kind":"pop"},{"t":11.2,"kind":"pop"},{"t":18.3,"kind":"pop"},{"t":19.3,"kind":"pop"},{"t":20.3,"kind":"pop"},{"t":24.0,"kind":"pop"},{"t":29.0,"kind":"pop"},{"t":30.4,"kind":"pop"},
+{"t":13.4,"kind":"ping","args":[1100],"gain":0.3},{"t":16.0,"kind":"ping","args":[1100],"gain":0.3},{"t":25.4,"kind":"ping","args":[990],"gain":0.35}]}
