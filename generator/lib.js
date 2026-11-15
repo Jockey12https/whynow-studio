@@ -124,3 +124,38 @@ function mascot(name, x, y, w, o = {}) {
   const fl = o.flip ? -1 : 1;
   return `<img src="${ASSETS[name]}" style="position:absolute;left:${x - w / 2}px;top:${y - h + bob}px;width:${w}px;height:${h}px;transform-origin:50% 100%;transform:rotate(${tilt}deg) scale(${fl * k},${k * sq});filter:drop-shadow(0 14px 18px rgba(0,10,60,.45))"/>`;
 }
+
+// ===== CREATOR EDIT KIT helpers =====
+// Caption recipe from the kit: lowercase Inter Display Black, ONE italic serif accent word marked *like this*,
+// per-character slide + fade + blur(0.3em -> 0), 28 frames per char, 1.8 frames apart. Keep inside x 136-920.
+// lines: array of strings, e.g. ['one ceo story', 'is moving *markets*'].  size ~112 for 3 lines.
+function cap(t, t0, x, y, lines, o = {}) {
+  const size = o.size || 96, W = o.w || 784, align = o.align || 'center', col = o.color || '#ffffff';
+  let n = 0, html = '';
+  for (const line of lines) {
+    let row = '';
+    for (const part of line.split(/(\*[^*]+\*)/)) {
+      const acc = part.startsWith('*'); const s = acc ? part.slice(1, -1) : part;
+      for (const ch of s) {
+        const d = t0 + (n++) * (1.8 / 30), p = eo(prog(t, d, d + 28 / 30));
+        const st = `display:inline-block;white-space:pre;opacity:${p};transform:translateY(${(1 - p) * 0.35}em);filter:blur(${(1 - p) * 0.3}em);`;
+        row += acc
+          ? `<span style="${st}font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;font-size:1.21em;letter-spacing:0;text-transform:none">${ch}</span>`
+          : `<span style="${st}">${ch}</span>`;
+      }
+    }
+    html += `<div style="line-height:.9;margin-bottom:.12em">${row}</div>`;
+  }
+  return `<div style="position:absolute;left:${x}px;top:${y}px;width:${W}px;text-align:${align};font-family:'Inter';font-weight:900;font-size:${size}px;letter-spacing:-.025em;text-transform:lowercase;color:${col};text-shadow:0 .04em .14em rgba(0,0,0,.4)">${html}</div>`;
+}
+// Smooth punch-in (kit zoom curve): ease in 0.9 s, hold 1 s, ease out 2 s. Scene sets  const PUNCHES = [{t0: 0.2, amount: .08}, ...]
+const _smoother = x => { x = clamp(x); return x * x * x * (x * (x * 6 - 15) + 10); };
+function _punch(t, t0, a, i = 0.9, h = 1.0, o = 2.0) {
+  if (t < t0) return 0; if (t < t0 + i) return a * _smoother((t - t0) / i);
+  if (t < t0 + i + h) return a; return a * (1 - _smoother((t - t0 - i - h) / o));
+}
+function zoomAt(t, punches, p = 4) { return 1 + Math.pow(punches.reduce((s, k) => s + Math.pow(_punch(t, k.t0, k.amount), p), 0), 1 / p); }
+function camera(html, t, punches, origin = '50% 55%') {
+  const k = zoomAt(t, punches);
+  return k === 1 ? html : `<div style="position:absolute;left:0;top:0;width:1080px;height:1920px;transform-origin:${origin};transform:scale(${k})">${html}</div>`;
+}

@@ -1,0 +1,154 @@
+{
+ "duration": 34,
+ "events": [
+  {
+   "t": 0.0,
+   "kit": "01 SFX/Original Synth SFX/03 Risers & Impacts/Cinematic Impact.wav",
+   "gain": 0.9
+  },
+  {
+   "t": 0.05,
+   "kind": "alarm",
+   "gain": 0.3
+  },
+  {
+   "t": 0.0,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Counter Ticks (number roll).wav",
+   "gain": 0.5
+  },
+  {
+   "t": 1.0,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Counter Ticks (number roll).wav",
+   "gain": 0.5
+  },
+  {
+   "t": 2.0,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Counter Ticks (number roll).wav",
+   "gain": 0.5
+  },
+  {
+   "t": 3.3,
+   "kit": "01 SFX/Original Synth SFX/01 Whooshes & Transitions/White Flash Hit.wav",
+   "gain": 0.7,
+   "kind": "whoosh"
+  },
+  {
+   "t": 9.45,
+   "kit": "01 SFX/Original Synth SFX/01 Whooshes & Transitions/Whoosh Medium L-R.wav",
+   "gain": 0.5,
+   "kind": "whoosh"
+  },
+  {
+   "t": 17.45,
+   "kit": "01 SFX/Original Synth SFX/01 Whooshes & Transitions/Whoosh Medium R-L.wav",
+   "gain": 0.5,
+   "kind": "whoosh"
+  },
+  {
+   "t": 23.45,
+   "kit": "01 SFX/Original Synth SFX/01 Whooshes & Transitions/Whoosh Fast L-R.wav",
+   "gain": 0.5,
+   "kind": "whoosh"
+  },
+  {
+   "t": 28.3,
+   "kit": "01 SFX/Original Synth SFX/01 Whooshes & Transitions/White Flash Hit.wav",
+   "gain": 0.7,
+   "kind": "whoosh"
+  },
+  {
+   "t": 6.2,
+   "kit": "01 SFX/Original Synth SFX/03 Risers & Impacts/Sub Thump.wav",
+   "gain": 1.0,
+   "kind": "thud"
+  },
+  {
+   "t": 10.2,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 10.7,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 11.2,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 18.3,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 19.3,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 20.3,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 24.0,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 29.0,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 30.4,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Pop Bright.wav",
+   "gain": 0.45,
+   "kind": "pop"
+  },
+  {
+   "t": 13.4,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Success Pluck.wav",
+   "gain": 0.35,
+   "kind": "ping"
+  },
+  {
+   "t": 16.0,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Success Pluck.wav",
+   "gain": 0.35,
+   "kind": "ping"
+  },
+  {
+   "t": 25.4,
+   "kit": "01 SFX/Original Synth SFX/04 UI Clicks & Pops/Success Pluck.wav",
+   "gain": 0.35,
+   "kind": "ping"
+  }
+ ],
+ "music": {
+  "file": "02 Music (original, royalty-free)/Late Night Build (90 BPM, loop).mp3",
+  "gain": 0.16,
+  "fadein": 1.0,
+  "fadeout": 3.0
+ },
+ "overlays": [
+  {
+   "t": 3.45,
+   "file": "05 Transitions (white overlays)/White Flash - Quick (0.5s).mp4"
+  },
+  {
+   "t": 28.45,
+   "file": "05 Transitions (white overlays)/White Flash - Quick (0.5s).mp4"
+  }
+ ]
+}
