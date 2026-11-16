@@ -25,3 +25,5 @@ Fact sheet (checked against Fortune, AFAR, Gizmodo, Mental Floss, BGR, YourMilea
 - The middle pane is the fail-safe if the outer pane fails ("extremely rare"). Checked.
 - The hole also lets moisture escape and reduces fog or condensation. Checked.
 Could not verify / avoided: exact pressure numbers, any specific aircraft model figures. Some sources swap the names of the middle and inner panes; the video follows Gizmodo, AFAR and Fortune (hole in the MIDDLE pane).
+
+Published: YouTube https://www.youtube.com/watch?v=b7CX0C8b4oA | Instagram https://www.instagram.com/reel/DfyjXlbDuEa/
