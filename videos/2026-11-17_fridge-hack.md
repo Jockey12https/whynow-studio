@@ -31,3 +31,7 @@ Follow @whynow.studio for the why behind the headlines.
 Checked (3+ sources): Oct 11-12 2026 attack on fridge controllers at ~700 French retail sites (Axios, CNN, Cybersecurity Dive, Reuters via ComplexDiscovery); controllers internet-exposed for remote monitoring (BleepingComputer, Forescout, OCCRP, Hard2bit); attackers triggered defrost / changed temperature settings (BleepingComputer, Forescout, Cybersecurity Dive, Notebookcheck); food losses worth millions of euros (Cybersecurity Dive, OCCRP); France attributes to IRGC-linked Shahid Kaveh unit (Axios, NBC, CBC, Cybersecurity Dive); Iran rejects claim as "baseless" (CNN, NBC says Iran routinely denies); thousands of controllers still exposed (BleepingComputer/Shodan, Reuters scan, Claroty via OCCRP).
 Hedged: "up to 50°C" shown as "reportedly" (OCCRP, Notebookcheck, Hard2bit). "Weak passwords" per ANSSI testimony reported by Silicon UK plus Forescout (weak or missing authentication); "old software" per BleepingComputer, OCCRP (unpatched Danfoss).
 Not used: "at least 15 fires" (only ANSSI via two outlets).
+
+## Published 2026-11-17 (made in chat after the 5 AM run failed)
+YouTube: https://www.youtube.com/watch?v=itEaYSy_nUA
+Instagram: https://www.instagram.com/reel/Df1Q2folEJf/
