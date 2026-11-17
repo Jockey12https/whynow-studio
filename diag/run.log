@@ -3,3 +3,6 @@
 05:23:03 | step3 clone studio | FAIL | rc=128 fatal: destination path '/home/claude/whynow-studio' already exists and is not an empty directory. 
 05:23:03 | step4 register_repo_root | FAIL | tool register_repo_root not found
 05:23:11 | step3 note | OK | repo already present at /home/claude/whynow-studio (pre-cloned, on main, origin set); whynow-assets also present at /home/claude/whynow-assets
+05:23:12 | step5 commit+push diag | OK | To https://github.com/Jockey12https/whynow-studio  * [new branch]      diag -> diag branch 'diag' set up to track 'origin/diag'. 
+05:23:19 | step6 add_repo whynow-assets read | FAIL | add_repo tool not available
+05:23:21 | step6 clone kit | OK | Cloning into '/home/claude/kit'... ls: 01 SFX 02 Music (original, royalty-free) 03 Fonts & Captions 04 LUTs 05 Transitions (white overlays) 06 Code (for developers) Get These Too.txt READ ME.txt 
