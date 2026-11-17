@@ -6,7 +6,7 @@ Run once per day (5 AM IST). Make ONE vertical animated Short (30-36 s, 1080x192
 - `git pull`; if `videos/<today>_*.md` already has "Published", stop and report "already posted".
 - `vidiq_social_post_list`: if a post started today (IST) exists, stop.
 
-## 1. Setup (skip what already exists)
+## 1. Setup (skip what already exists; the workspace can be reset overnight, so chromium and the kit may need reinstalling: about 1 min)
 - Repo at /home/claude/whynow-studio (push works). Kit at /home/claude/kit (clone Jockey12https/whynow-assets if missing; generator falls back without it).
 - `python3 -c "import playwright,numpy,PIL"`, else `pip install --break-system-packages playwright numpy pillow && python3 -m playwright install chromium`. `export WHYNOW_KIT=/home/claude/kit`.
 
