@@ -1,0 +1,5 @@
+05:22:57 | step1 SendUserMessage | tool exists in tool list
+05:23:03 | step2 add_repo whynow-studio push | FAIL | tool add_repo not found via ToolSearch (queries 'add_repo register_repo_root', 'repo'); not in tool list
+05:23:03 | step3 clone studio | FAIL | rc=128 fatal: destination path '/home/claude/whynow-studio' already exists and is not an empty directory. 
+05:23:03 | step4 register_repo_root | FAIL | tool register_repo_root not found
+05:23:11 | step3 note | OK | repo already present at /home/claude/whynow-studio (pre-cloned, on main, origin set); whynow-assets also present at /home/claude/whynow-assets
